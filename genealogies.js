@@ -1,3 +1,16 @@
+états = {
+	"⛊": {affiché: true, sélécteur: "img", display: "inline"},
+	"📆": {affiché: true, sélécteur: "span", display: "inline"},
+	"🌿": {affiché: false, sélécteur: ".éteinte", display: "block"},
+};
+
+function basculer(clé) {
+	config = états[clé.innerText];
+	éléments = document.querySelectorAll(config.sélécteur);
+	for (élément of éléments) {élément.style.display = config.affiché ? "none" : config.display;}
+	config.affiché = !config.affiché;
+}
+
 canoniques = {
 
 	"saint": "Saint ",
