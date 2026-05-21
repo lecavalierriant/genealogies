@@ -1,0 +1,22 @@
+.mort a {color: #7777dd;}
+.morte a {color: #dd77dd;}
+.vivant a, .héritier a , .exclus a {color: #9090ff;}
+.vivante a, .héritière a , .excluse a {color: #ff99ff;}
+.moine a, .cardinal a, .archevêque a, .abbé a, .chanoine a, .évêque a, .prêtre a, .religieux a {color: #ffff99;}
+.saint a, .bienheureux a {color: #aaffff;}
+
+.mort {color: #aaaadd;}
+.morte {color: #ddaadd;}
+.vivant, .héritier , .exclus {color: #ccccff;}
+.vivante, .héritière , .excluse {color: #ffccff;}
+.moine, .cardinal, .archevêque, .abbé, .chanoine, .évêque, .prêtre, .religieux {color: #ffffcc;}
+.saint, .bienheureux, .geseenten {color: #ccffff;}
+
+.héritier {counter-increment: compte_héritiers;}
+.héritier:before {content: "{" counters(compte_héritiers, ".") "} ";}
+
+.uxoris {border: 1px yellow solid;}
+
+.bâtard, .bâtarde {border: 1px red solid;}
+
+.mort, .morte {font-style: italic;}
