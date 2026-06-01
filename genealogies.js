@@ -23,27 +23,27 @@ canoniques = {
 
 ecclesiastiques = {
 
-	"archevêque":  "Archevêque ",
+	"archevêque": "Archevêque ",
 
-	"évêque":  "Évêque ",
+	"évêque": "Évêque ",
 
-	"cardinal":  "Cardinal ",
+	"cardinal": "Cardinal ",
 
-	"abbé":  "Abbé ",
+	"abbé": "Abbé ",
 
-	"moine":  "Moine ",
+	"moine": "Moine ",
 
-	"prêtre":  "Prêtre ",
+	"prêtre": "Prêtre ",
 
-	"chanoine":  "Chanoine ",
+	"chanoine": "Chanoine ",
 
-	"religieux":  "Religieux ",
+	"religieux": "Religieux ",
 
 }
 
 temporels = {
 
-	"empereur":  "Empereur ",
+	"empereur": "Empereur ",
 	"царь": "Царь ",
 	"sultan": "Sultan ",
 
@@ -63,21 +63,21 @@ temporels = {
 	"великая-княжна": "Великая княжна ",
 
 	"duc": "Duc ",
-	"dug":  "Dug ",
+	"dug": "Dug ",
 	"herzog": "Herzog ",
 	"duchesse": "Duchesse ",
-	"dugez":  "Dugez ",
+	"dugez": "Dugez ",
 	"herzogin": "Herzogin ",
 
-	"marquis":  "Marquis ",
-	"marquise":  "Marquise ",
+	"marquis": "Marquis ",
+	"marquise": "Marquise ",
 
 	"comte": "Comte ",
 	"comtesse": "Comtesse ",
 
-	"présomptif":  "Héritier présomptif ",
-	"mutmaßliche":  "Mutmaßliche erbe ",
-	"царевич":  "Царевич ",
+	"présomptif": "Héritier présomptif ",
+	"mutmaßliche": "Mutmaßliche erbe ",
+	"царевич": "Царевич ",
 
 	"chef": "Chef ",
 	"exclus": "Exclus ",
