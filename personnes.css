@@ -2,14 +2,14 @@
 .morte a {color: #dd77dd;}
 .vivant a, .héritier a , .exclus a {color: #9090ff;}
 .vivante a, .héritière a , .excluse a {color: #ff99ff;}
-.moine a, .cardinal a, .archevêque a, .abbé a, .chanoine a, .évêque a, .prêtre a, .religieux a {color: #ffff99;}
+.moine a, .cardinal a, .archevêque a, .abbé a, .chanoine a, .évêque a, .prêtre a, .religieux a, .pape a {color: #ffff99;}
 .saint a, .bienheureux a {color: #aaffff;}
 
 .mort {color: #aaaadd;}
 .morte {color: #ddaadd;}
 .vivant, .héritier , .exclus {color: #ccccff;}
 .vivante, .héritière , .excluse {color: #ffccff;}
-.moine, .cardinal, .archevêque, .abbé, .chanoine, .évêque, .prêtre, .religieux {color: #ffffcc;}
+.moine, .cardinal, .archevêque, .abbé, .chanoine, .évêque, .prêtre, .religieux, .pape {color: #ffffcc;}
 .saint, .bienheureux, .geseenten {color: #ccffff;}
 
 .héritier {counter-increment: compte_héritiers;}
