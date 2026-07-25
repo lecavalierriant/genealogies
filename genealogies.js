@@ -23,75 +23,79 @@ function masquer(bouton) {
 
 canoniques = {
 
-	"saint": "Saint ",
-	"sainte": "Sainte ",
+	"saint": "Saint",
+	"sainte": "Sainte",
 
-	"bienheureux": "Bienheureux ",
-	"geseenten": "Geseenten ",
+	"bienheureux": "Bienheureux",
+	"geseenten": "Geseenten",
 
 }
 
 ecclesiastiques = {
 
-	"archevêque": "Archevêque ",
+	"pape": "Pape",
 
-	"évêque": "Évêque ",
+	"archevêque": "Archevêque",
 
-	"cardinal": "Cardinal ",
+	"évêque": "Évêque",
 
-	"abbé": "Abbé ",
+	"cardinal": "Cardinal",
 
-	"moine": "Moine ",
+	"abbé": "Abbé",
 
-	"prêtre": "Prêtre ",
+	"moine": "Moine",
 
-	"chanoine": "Chanoine ",
+	"prêtre": "Prêtre",
 
-	"religieux": "Religieux ",
+	"chanoine": "Chanoine",
+
+	"religieux": "Religieux",
 
 }
 
 temporels = {
 
-	"empereur": "Empereur ",
-	"царь": "Царь ",
-	"sultan": "Sultan ",
+	"empereur": "Empereur",
+	"царь": "Царь",
+	"sultan": "Sultan",
 
 	"roi": "Roi",
-	"reine": "Reine ",
+	"reine": "Reine",
 
-	"roi.saliens": "Roi des Saliens ",
-	"roi.orléans": "Roi d’Orléans ",
-	"roi.paris": "Roi de Paris ",
-	"roi.austrasie": "Roi d’Austrasie ",
-	"roi.aquitaine": "Roi d’Aquitaine ",
+	"roi.saliens": "Roi des Saliens",
+	"roi.orléans": "Roi d’Orléans",
+	"roi.paris": "Roi de Paris",
+	"roi.austrasie": "Roi d’Austrasie",
+	"roi.aquitaine": "Roi d’Aquitaine",
 
-	"fürst": "Fürst ",
+	"fürst": "Fürst",
 
-	"großherzog": "Großherzog ",
-	"großherzogin": "Großherzogin ",
-	"великая-княжна": "Великая княжна ",
+	"großherzog": "Großherzog",
+	"großherzogin": "Großherzogin",
+	"великая-княжна": "Великая княжна",
 
-	"duc": "Duc ",
-	"dug": "Dug ",
-	"herzog": "Herzog ",
-	"duchesse": "Duchesse ",
-	"dugez": "Dugez ",
-	"herzogin": "Herzogin ",
+	"duc": "Duc",
+	"dug": "Dug",
+	"herzog": "Herzog",
+	"duchesse": "Duchesse",
+	"dugez": "Dugez",
+	"herzogin": "Herzogin",
 
-	"marquis": "Marquis ",
-	"marquise": "Marquise ",
+	"marquis": "Marquis",
+	"marquise": "Marquise",
 
-	"comte": "Comte ",
-	"comtesse": "Comtesse ",
+	"comte": "Comte",
+	"comtesse": "Comtesse",
 
-	"présomptif": "Héritier présomptif ",
-	"mutmaßliche": "Mutmaßliche erbe ",
-	"царевич": "Царевич ",
 
-	"chef": "Chef ",
-	"exclus": "Exclus ",
-	"baillistr": "Baillistr ",
+	"présomptif": "Héritier présomptif",
+	"mutmaßliche": "Mutmaßliche erbe",
+	"царевич": "Царевич",
+
+
+	"chef": "Chef",
+	"exclus": "Exclus",
+	"baillistr": "Baillistr",
 	"madame-royale": "Madame Royale",
 	"avoué-du-saint-sépulcre": "Avoué du Saint-Sépulcre",
 
