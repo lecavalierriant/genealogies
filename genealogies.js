@@ -15,7 +15,6 @@ function masquer(bouton) {
 	divs = bouton.parentElement.parentElement.querySelectorAll("div");
 	divs.forEach(
 		function(div) {
-			// if (div.style.opacity == "0") {div.style.opacity = "1";} else {div.style.opacity = "0";}
 			if (div.style.display == "none") {div.style.display = "block";} else {div.style.display = "none";}
 		}
 	);
