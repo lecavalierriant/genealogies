@@ -1,5 +1,5 @@
 états = {
-	"⛊": {affiché: true, sélécteur: "img", display: "inline"},
+	"🛡️": {affiché: true, sélécteur: "img", display: "inline"},
 	"📆": {affiché: true, sélécteur: "span", display: "inline"},
 	"🌿": {affiché: false, sélécteur: ".éteinte", display: "block"},
 };
@@ -12,6 +12,7 @@ function basculer(clé) {
 }
 
 function masquer(bouton) {
+	if (bouton.innerText == "❌") {bouton.innerText = "✔️";} else {bouton.innerText = "❌";}
 	divs = bouton.parentElement.parentElement.querySelectorAll("div");
 	divs.forEach(
 		function(div) {
