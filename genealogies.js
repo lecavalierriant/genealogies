@@ -95,7 +95,7 @@ temporels = {
 	"царевич": "Царевич",
 
 
-	"chef": "Chef",
+	"chef": "Chef <span>de famille</span>",
 	"exclus": "Exclus",
 	"baillistr": "Baillistr",
 	"madame-royale": "Madame Royale",
