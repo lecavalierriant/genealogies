@@ -17,7 +17,6 @@ div:not(.dynastie, .couple, .éteinte, .boutons) {
 	z-index: 99;
 }
 .dynastie {border: 1px #9090ff solid;}
-.consanguin {border: 1px gold dashed;}
 .couple {
 	display: flex;
 	align-items: flex-end;
