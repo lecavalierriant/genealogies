@@ -77,10 +77,9 @@ temporels = {
 	"великая-княжна": "Великая княжна",
 
 	"duc": "Duc",
+	"duchesse": "Duchesse",
 	"dug": "Dug",
 	"herzog": "Herzog",
-	"duchesse": "Duchesse",
-	"dugez": "Dugez",
 	"herzogin": "Herzogin",
 
 	"marquis": "Marquis",
