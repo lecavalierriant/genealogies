@@ -55,20 +55,19 @@ ecclesiastiques = {
 
 temporels = {
 
-	"empereur": "Empereur <span>des Français</span>",
-	"царь": "Царь <span>всея Русі</span>",
-	"императоръ": "Императоръ <span>Всероссійскій</span>",
-	"императрица": "Императрица <span>Всероссийская</span>",
+		"empereur": "Empereur <span>des Français</span>",
+		"царь": "Царь <span>всея Русі</span>",
+		"императоръ": "Императоръ <span>Всероссійскій</span>",
+		"императрица": "Императрица <span>Всероссийская</span>",
 	"sultan": "Sultan",
 
 	"roi": "Roi",
+		"roi.saliens": "Roi des Saliens",
+		"roi.orléans": "Roi d’Orléans",
+		"roi.paris": "Roi de Paris",
+		"roi.austrasie": "Roi d’Austrasie",
+		"roi.aquitaine": "Roi d’Aquitaine",
 	"reine": "Reine",
-
-	"roi.saliens": "Roi des Saliens",
-	"roi.orléans": "Roi d’Orléans",
-	"roi.paris": "Roi de Paris",
-	"roi.austrasie": "Roi d’Austrasie",
-	"roi.aquitaine": "Roi d’Aquitaine",
 
 	"fürst": "Fürst",
 
@@ -77,9 +76,11 @@ temporels = {
 	"великая-княжна": "Великая княжна",
 
 	"duc": "Duc",
+		"duc-bretagne": "Duc <span>de Bretagne</span>",
+		"dug": "Dug <span>Breizh</span>",
 	"duchesse": "Duchesse",
-	"dug": "Dug <span>Breizh</span>",
-	"duchez": "Duchez <span>Breizh</span>",
+		"duchesse-bretagne": "Duchesse <span>de Bretagne</span>",
+		"duchez": "Duchez <span>Breizh</span>",
 	"herzog": "Herzog",
 	"herzogin": "Herzogin",
 
@@ -98,8 +99,8 @@ temporels = {
 	"chef": "Chef <span>de famille</span>",
 	"exclus": "Exclus",
 	"baillistr": "Baillistr",
-	"madame-royale": "Madame Royale",
-	"avoué-du-saint-sépulcre": "Avoué du Saint-Sépulcre",
+		"madame-royale": "Madame Royale",
+		"avoué-du-saint-sépulcre": "Avoué du Saint-Sépulcre",
 
 };
 
