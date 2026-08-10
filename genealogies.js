@@ -56,21 +56,21 @@ ecclesiastiques = {
 temporels = {
 
 		"empereur": "Empereur <span>des Français</span>",
-		"царь": "Царь <span>всея Русі</span>",
 		"императоръ": "Императоръ <span>Всероссійскій</span>",
 		"императрица": "Императрица <span>Всероссийская</span>",
+		"царь": "Царь <span>всея Русі</span>",
 	"sultan": "Sultan",
 
 	"roi": "Roi",
-		"roi-angleterre": "Roi <span>d’Angleterre</span>",
-		"roi-jérusalem": "Roi <span>de Jérusalem</span>",
-		"roi.saliens": "Roi des Saliens",
-		"roi.orléans": "Roi d’Orléans",
-		"roi.paris": "Roi de Paris",
-		"roi.austrasie": "Roi d’Austrasie",
-		"roi.aquitaine": "Roi d’Aquitaine",
 	"reine": "Reine",
+		"roi-angleterre": "Roi <span>d’Angleterre</span>",
+		"roi-aquitaine": "Roi <span>d’Aquitaine</span>",
+		"roi-austrasie": "Roi <span>d’Austrasie</span>",
+		"roi-jérusalem": "Roi <span>de Jérusalem</span>",
 		"reine-jérusalem": "Reine <span>de Jérusalem</span>",
+		"roi-orléans": "Roi <span>d’Orléans</span>",
+		"roi-paris": "Roi <span>de Paris</span>",
+		"roi-saliens": "Roi <span>des Saliens</span>",
 
 	"fürst": "Fürst",
 
@@ -79,10 +79,10 @@ temporels = {
 	"великая-княжна": "Великая княжна",
 
 	"duc": "Duc",
-		"duc-bretagne": "Duc <span>de Bretagne</span>",
-		"dug": "Dug <span>Breizh</span>",
 	"duchesse": "Duchesse",
+		"duc-bretagne": "Duc <span>de Bretagne</span>",
 		"duchesse-bretagne": "Duchesse <span>de Bretagne</span>",
+		"dug": "Dug <span>Breizh</span>",
 		"duchez": "Duchez <span>Breizh</span>",
 	"herzog": "Herzog",
 	"herzogin": "Herzogin",
