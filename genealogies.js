@@ -117,8 +117,8 @@ function titrer() {
 				titres.push("Roi de Neustrie");
 			} else if (personne.classList.contains("roi") && personne.classList.contains("paris") && personne.classList.contains("orléans")) {
 				titres.push("Roi de Paris puis d’Orléans");
-			} else if (personne.classList.contains("roi") && personne.classList.contains("consort")) {
-				titres.push("Roi consort");
+			} else if (personne.classList.contains("consort")) {
+				titres.push("[Consort]");
 			} else if (personne.classList.contains("duc") && personne.classList.contains("roi")) {
 				titres.push("Duc puis Roi");
 			} else {
