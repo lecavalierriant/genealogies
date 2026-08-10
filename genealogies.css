@@ -37,7 +37,7 @@ h2 {
 .quatre {top: 115px;}
 .cinq {top: 145px;}
 
-iframe {height: 180px;}
+iframe {height: 190px;}
 
 img {
 	width: 25px;
@@ -54,7 +54,4 @@ img {
 }
 .illégitime {opacity: 0.5;}
 
-span {
-	font-size: 10px;
-	color: inherit;
-}
+span {font-size: 10px;}
