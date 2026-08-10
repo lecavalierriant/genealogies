@@ -111,20 +111,15 @@ function titrer() {
 	document.querySelectorAll('div[class]').forEach(
 		personne => {
 			titres = [];
-			if (personne.classList.contains("roi") && personne.classList.contains("austrasie")) {
-				titres.push("Roi d’Austrasie");
-			} else if (personne.classList.contains("roi") && personne.classList.contains("neustrie")) {
-				titres.push("Roi de Neustrie");
-			} else if (personne.classList.contains("roi") && personne.classList.contains("paris") && personne.classList.contains("orléans")) {
+			if (personne.classList.contains("roi") && personne.classList.contains("paris") && personne.classList.contains("orléans")) {
 				titres.push("Roi de Paris puis d’Orléans");
 			} else if (personne.classList.contains("consort")) {
 				titres.push("[Consort]");
 			} else if (personne.classList.contains("duc") && personne.classList.contains("roi")) {
 				titres.push("Duc puis Roi");
-			} else {
-				for ([classe, nom] of Object.entries(Object.assign(canoniques, ecclesiastiques, temporels))) {
-					if (personne.classList.contains(classe)) {titres.push(nom);}
-				}
+			}
+			for ([classe, nom] of Object.entries(Object.assign(canoniques, ecclesiastiques, temporels))) {
+				if (personne.classList.contains(classe)) {titres.push(nom);}
 			}
 			if (titres.length > 0) {
 				prefixe = titres.join(" ") + " ";
