@@ -62,12 +62,15 @@ temporels = {
 	"sultan": "Sultan",
 
 	"roi": "Roi",
+		"roi-angleterre": "Roi <span>d’Angleterre</span>",
+		"roi-jérusalem": "Roi <span>de Jérusalem</span>",
 		"roi.saliens": "Roi des Saliens",
 		"roi.orléans": "Roi d’Orléans",
 		"roi.paris": "Roi de Paris",
 		"roi.austrasie": "Roi d’Austrasie",
 		"roi.aquitaine": "Roi d’Aquitaine",
 	"reine": "Reine",
+		"reine-jérusalem": "Reine <span>de Jérusalem</span>",
 
 	"fürst": "Fürst",
 
