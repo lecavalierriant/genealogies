@@ -17,6 +17,9 @@
 
 .uxoris {border: 1px yellow solid;}
 
-.bâtard, .bâtarde {border: 1px red solid;}
+.illégitime {
+	border: 1px red solid;
+	opacity: 0.5;
+}
 
 .mort, .morte {font-style: italic;}
