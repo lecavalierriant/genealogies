@@ -106,7 +106,6 @@ temporels = {
 
 
 	"chef": "Chef <span>de famille</span>",
-	"exclus": "Exclus",
 	"baillistr": "Baillistr",
 		"madame-royale": "Madame Royale",
 		"avoué-du-saint-sépulcre": "Avoué du Saint-Sépulcre",
