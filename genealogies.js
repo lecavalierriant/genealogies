@@ -81,6 +81,7 @@ temporels = {
 	"großherzog": "Großherzog",
 	"großherzogin": "Großherzogin",
 	"великая-княжна": "Великая княжна",
+		"grand-duc-luxembourg": "Grand-Duc <span>de Luxembourg</span>",
 
 	"duc": "Duc",
 	"duchesse": "Duchesse",
