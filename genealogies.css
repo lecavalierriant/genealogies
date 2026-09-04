@@ -2,6 +2,10 @@
 	text-align: left;
 	color: #99dd99;
 }
+.navigation * {
+	text-align: center;
+	color: #ffffff;
+}
 
 a {color: #66dd66;}
 
@@ -10,6 +14,10 @@ body {counter-reset: compte_héritiers;}
 div:not(.dynastie, .couple, .éteinte, .boutons) {
 	margin: 2px 2px 2px 20px;
 	background-color: rgba(0, 0, 255, 0.02);
+}
+.navigation div {
+	border: 0;
+	margin: 0 6px 0 6px;
 }
 .boutons {
 	position: sticky;
@@ -25,6 +33,7 @@ div:not(.dynastie, .couple, .éteinte, .boutons) {
 	border: 1px red dashed;
 	opacity: 0.5;
 }
+.titres {display: flex;}
 
 h2 {
 	margin-left: 10px;
@@ -37,7 +46,9 @@ h2 {
 .quatre {top: 115px;}
 .cinq {top: 145px;}
 
-iframe {height: 190px;}
+.navigation h3 {margin: 0 3px 10px 3px;}
+
+iframe {height: 170px;}
 
 img {
 	width: 27px;
@@ -45,6 +56,10 @@ img {
 	border-radius: 0;
 }
 .navigation img {
+	width: 54px;
+	height: 60px;
+}
+.titres img {
 	width: 54px;
 	height: 60px;
 }
