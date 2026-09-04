@@ -42,6 +42,7 @@ iframe {height: 190px;}
 img {
 	width: 25px;
 	height: 30px;
+	border-radius: 0;
 }
 .armoirie {
 	width: 100px;
