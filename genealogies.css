@@ -23,7 +23,7 @@ div:not(.dynastie, .couple, .éteinte, .boutons) {
 }
 .éteinte {
 	border: 1px red dashed;
-	display: none;
+	opacity: 0.5;
 }
 
 h2 {
@@ -40,9 +40,13 @@ h2 {
 iframe {height: 190px;}
 
 img {
-	width: 25px;
+	width: 27px;
 	height: 30px;
 	border-radius: 0;
+}
+.navigation img {
+	width: 54px;
+	height: 60px;
 }
 .armoirie {
 	width: 100px;
