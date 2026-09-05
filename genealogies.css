@@ -33,7 +33,6 @@ div:not(.dynastie, .couple, .éteinte, .boutons) {
 	border: 1px red dashed;
 	opacity: 0.5;
 }
-.titres {display: flex;}
 
 h2 {
 	margin-left: 10px;
@@ -56,10 +55,6 @@ img {
 	border-radius: 0;
 }
 .navigation img {
-	width: 54px;
-	height: 60px;
-}
-.titres img {
 	width: 54px;
 	height: 60px;
 }
