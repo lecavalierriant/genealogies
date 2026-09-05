@@ -8,16 +8,16 @@
 }
 
 a {color: #66dd66;}
+.navigation a {
+	border: 0;
+	margin: 0 6px 0 6px;
+}
 
 body {counter-reset: compte_héritiers;}
 
 div:not(.dynastie, .couple, .éteinte, .boutons) {
 	margin: 2px 2px 2px 20px;
 	background-color: rgba(0, 0, 255, 0.02);
-}
-.navigation div {
-	border: 0;
-	margin: 0 6px 0 6px;
 }
 .boutons {
 	position: sticky;
