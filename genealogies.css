@@ -32,8 +32,8 @@ div:not(.dynastie, .couple, .éteinte, .boutons) {
 .éteinte {
 	border: 1px red dashed;
 	opacity: 0.5;
-	display: none;
 }
+div .éteinte {display: none;}
 
 h2 {
 	margin-left: 10px;
