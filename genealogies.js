@@ -75,6 +75,8 @@ temporels = {
 		"roi-orléans": "Roi <span>d’Orléans</span>",
 		"roi-paris": "Roi <span>de Paris</span>",
 		"roi-saliens": "Roi <span>des Saliens</span>",
+		"roi-navarre": "Roi <span>de Navarre</span>",
+		"reine-navarre": "Reine <span>de Navarre</span>",
 
 	"fürst": "Fürst",
 
@@ -99,6 +101,7 @@ temporels = {
 
 	"comte": "Comte",
 	"comtesse": "Comtesse",
+		"comte-champagne": "Comte <span>de Champagne</span>",
 
 
 	"présomptif": "Héritier présomptif",
