@@ -1,7 +1,5 @@
-body * {
-	text-align: left;
-	color: #99dd99;
-}
+* {color: #99dd99;}
+body * {text-align: left;}
 .navigation * {
 	text-align: center;
 	color: #ffffff;
@@ -24,7 +22,7 @@ div:not(.dynastie, .couple, .éteinte, .boutons) {
 	top: 5px;
 	z-index: 99;
 }
-.dynastie {border: 1px #9090ff solid;}
+body:not(.navigation) .dynastie:not(.fausse) {border: 1px #9090ff solid;}
 .couple {
 	display: flex;
 	align-items: flex-end;
@@ -35,6 +33,8 @@ div:not(.dynastie, .couple, .éteinte, .boutons) {
 }
 div .éteinte {display: none;}
 
+h1 {text-align: center;}
+h1:last-of-type {text-align: left;}
 h2 {
 	margin-left: 10px;
 	position: sticky;
