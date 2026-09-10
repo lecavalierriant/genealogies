@@ -103,6 +103,7 @@ temporels = {
 	"comtesse": "Comtesse",
 		"comte-champagne": "Comte <span>de Champagne</span>",
 
+	"seigneur": "Seigneur",
 
 	"présomptif": "Héritier présomptif",
 	"mutmaßliche": "Mutmaßliche erbe",
