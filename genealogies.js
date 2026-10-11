@@ -92,6 +92,8 @@ temporels = {
 		"duchesse-bretagne": "Duchesse <span>de Bretagne</span>",
 		"duc-francs": "Duc <span>des Francs</span>",
 		"duchesse-francs": "Duchesse <span>des Francs</span>",
+		"duc-parme": "Duc <span>de Parme</span>",
+		"duchesse-parme": "Duchesse <span>de Parme</span>",
 		"dug": "Dug <span>Breizh</span>",
 		"duchez": "Duchez <span>Breizh</span>",
 	"herzog": "Herzog",
