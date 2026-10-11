@@ -112,7 +112,6 @@ temporels = {
 	"mutmaßliche": "Mutmaßliche erbe",
 	"царевич": "Царевич",
 
-
 	"chef": "Chef <span>de famille</span>",
 	"baillistr": "Baillistr",
 		"madame-royale": "Madame Royale",
