@@ -46,6 +46,24 @@ h2 {
 .quatre {top: 115px;}
 .cinq {top: 145px;}
 
+@font-face {
+	font-family: "deutsche uncialis";
+	src: url("../polygramme/externes/deutsche-uncialis.ttf");
+}
+
+h1, h1 *,
+h2, h2 *,
+h3, h3 * {font-family: "deutsche uncialis"; font-weight: normal;}
+
+@font-face {
+	font-family: "triod postnaja";
+	src: url("../polygramme/externes/triod-postnaja.ttf");
+}
+
+*[lang="ru"] h1, *[lang="ru"] h1 *,
+*[lang="ru"] h2, *[lang="ru"] h2 *,
+*[lang="ru"] h3, *[lang="ru"] h3 * {font-family: "triod postnaja"; font-weight: normal;}
+
 .navigation h3 {margin: 0 3px 10px 3px;}
 
 iframe {height: 170px;}
