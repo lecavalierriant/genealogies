@@ -98,6 +98,7 @@ temporels = {
 		"duchez": "Duchez <span>Breizh</span>",
 	"herzog": "Herzog",
 	"herzogin": "Herzogin",
+		"herzog-loutrengen": "Herzog <span>vu Loutrengen</span>",
 
 	"marquis": "Marquis",
 	"marquise": "Marquise",
