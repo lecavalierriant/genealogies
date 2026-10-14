@@ -1,11 +1,11 @@
-* {color: #99dd99;}
+* {color: #9d9;}
 body * {text-align: left;}
 .navigation * {
 	text-align: center;
 	color: #fff;
 }
 
-a {color: #66dd66;}
+a {color: #6d6;}
 .navigation a {
 	border: 0;
 	margin: 0 6px 0 6px;
@@ -22,7 +22,7 @@ div:not(.dynastie, .couple, .éteinte, .boutons) {
 	top: 5px;
 	z-index: 99;
 }
-body:not(.navigation) .dynastie:not(.fausse) {border: 1px #9090ff solid;}
+body:not(.navigation) .dynastie:not(.fausse) {border: 1px #99f solid;}
 .couple {
 	display: flex;
 	align-items: flex-end;
