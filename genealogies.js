@@ -79,14 +79,12 @@ temporels = {
 	"duchez": "Duchez",
 	"herzog": "Herzog",
 	"herzogin": "Herzogin",
-		"herzog-loutrengen": "Herzog <span>vu Loutrengen</span>",
 
 	"marquis": "Marquis",
 	"marquise": "Marquise",
 
 	"comte": "Comte",
 	"comtesse": "Comtesse",
-		"comte-champagne": "Comte <span>de Champagne</span>",
 
 	"seigneur": "Seigneur",
 
@@ -99,20 +97,39 @@ temporels = {
 		"madame-royale": "Madame Royale",
 		"avoué-du-saint-sépulcre": "Avoué du Saint-Sépulcre",
 
+	"consort": "[Consort]",
+
+};
+
+peuples = {
+	"francs": "<span>des Francs</span>",
+	"francais": "<span>des Français</span>",
+	"saliens": "<span>des Saliens</span>",
+};
+
+terres = {
+	"angleterre": "<span>d’Angleterre</span>",
+	"aquitaine": "<span>d’Aquitaine</span>",
+	"austrasie": "<span>d’Austrasie</span>",
+	"breizh": "<span>Breizh</span>",
+	"bretagne": "<span>de Bretagne</span>",
+	"champagne": "<span>de Champagne</span>",
+	"france": "<span>de France</span>",
+	"jérusalem": "<span>de Jérusalem</span>",
+	"loutrengen": "<span>vu Loutrengen</span>",
+	"luxembourg": "<span>de Luxembourg</span>",
+	"navarre": "<span>de Navarre</span>",
+	"orléans": "<span>d’Orléans</span>",
+	"paris": "<span>de Paris</span>",
+	"parme": "<span>de Parme</span>",
+	"всероссиискии": "<span>Всероссійскій</span>",
 };
 
 function titrer() {
 	document.querySelectorAll('div[class]').forEach(
 		personne => {
 			titres = [];
-			if (personne.classList.contains("roi") && personne.classList.contains("paris") && personne.classList.contains("orléans")) {
-				titres.push("Roi de Paris puis d’Orléans");
-			} else if (personne.classList.contains("consort")) {
-				titres.push("[Consort]");
-			} else if (personne.classList.contains("duc") && personne.classList.contains("roi")) {
-				titres.push("Duc puis Roi");
-			}
-			for ([classe, nom] of Object.entries(Object.assign(canoniques, ecclesiastiques, temporels))) {
+			for ([classe, nom] of Object.entries(Object.assign(canoniques, ecclesiastiques, temporels, peuples, terres))) {
 				if (personne.classList.contains(classe)) {titres.push(nom);}
 			}
 			if (titres.length > 0) {
