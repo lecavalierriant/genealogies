@@ -55,10 +55,10 @@ ecclesiastiques = {
 
 temporels = {
 
-		"empereur": "Empereur <span>des Français</span>",
-			"императоръ-всероссиискии": "Императоръ <span>Всероссійскій</span>",
-		"императрица": "Императрица <span>Всероссийская</span>",
-		"царь": "Царь <span>всея Русі</span>",
+	"empereur": "Empereur",
+	"императоръ": "Императоръ",
+	"императрица": "Императрица",
+	"царь": "Царь <span>всея Русі</span>",
 	"sultan": "Sultan",
 
 	"roi": "Roi",
