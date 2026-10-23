@@ -63,20 +63,7 @@ temporels = {
 
 	"roi": "Roi",
 	"reine": "Reine",
-		"roi-angleterre": "Roi <span>d’Angleterre</span>",
-		"roi-aquitaine": "Roi <span>d’Aquitaine</span>",
-		"roi-austrasie": "Roi <span>d’Austrasie</span>",
-		"roi-france": "Roi <span>de France</span>",
-		"reine-france": "Reine <span>de France</span>",
-		"roi-francs": "Roi <span>des Francs</span>",
-		"reine-francs": "Reine <span>des Francs</span>",
-		"roi-jérusalem": "Roi <span>de Jérusalem</span>",
-		"reine-jérusalem": "Reine <span>de Jérusalem</span>",
-		"roi-orléans": "Roi <span>d’Orléans</span>",
-		"roi-paris": "Roi <span>de Paris</span>",
-		"roi-saliens": "Roi <span>des Saliens</span>",
-		"roi-navarre": "Roi <span>de Navarre</span>",
-		"reine-navarre": "Reine <span>de Navarre</span>",
+	"βασιλεων": "Βασιλέων",
 
 	"fürst": "Fürst",
 
